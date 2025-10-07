@@ -1,0 +1,324 @@
+/* ================================ general style ===============================*/
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  padding-bottom: 20px;
+  font-size: 43px;
+}
+
+div img {
+  width: 100%;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0;
+}
+h2{
+    margin-bottom: 25px;
+}
+p {
+  color: rgb(74, 85, 101);
+  margin: 0;
+line-height: 35px;
+}
+
+.Container {
+  margin: auto;
+  width: 70%;
+}
+
+.clear {
+  clear: both;
+}
+/* =================================================================== */
+
+/* ================================ hero section ===============================*/
+
+.hero {
+  background-color: rgb(249, 250, 251);
+  color: black;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.hero-img {
+  margin-top: 90px;
+  width: 30%;
+  margin-left: 25%;
+  border-radius: 35px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.button-hero-1 {
+  background-color: black;
+  width: 180px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 40px;
+}
+.button-hero-2 {
+  background-color: rgb(0, 0, 0, 0);
+  width: 180px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px black solid;
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.text-buttom-hero {
+  margin-top: 0px;
+  width: 40%;
+}
+
+/* =================================================================== */
+
+/* ================================ secound section ===============================*/
+
+.margit-top {
+  margin-top: 100px;
+}
+.second-section-text {
+  text-align: center;
+}
+.cards {
+  margin-top: 60px;
+  width: 100%;
+}
+.card {
+  width: 28.333%;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  border-radius: 30px;
+}
+.card-1-color {
+  background-color: rgb(219, 234, 254);
+  border: 1px solid rgb(190, 219, 255);
+}
+.card-2-color {
+  background-color: rgb(208, 250, 229);
+  border: 1px solid rgb(164, 244, 207);
+}
+.card-3-color {
+  background-color: rgb(243, 232, 255);
+  border: 1px solid rgb(233, 212, 255);
+}
+div.card div img {
+  width: 60px;
+  margin-top: 15px;
+}
+.margin-right {
+  margin-right: 2.3%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.shape {
+  height: 50px;
+  background-color: black;
+  width: 3px;
+  margin-right: 7px;
+}
+.img-why-choose {
+  margin-top: 100px;
+  width: 50%;
+  height: 250x;
+  border-radius: 35px;
+  overflow: hidden;
+  margin-right: 40px;
+}
+
+.margin-top-bottom {
+  margin-block: 20px;
+}
+div.More-Than-Gym div h4 {
+  margin-bottom: 10px;
+}
+
+/* =================================================================== */
+
+/* ================================ section 3 ===============================*/
+
+.Testmonials {
+  margin-top: 5%;
+  background-color: rgb(249, 250, 251);
+  color: black;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.cards-Testmonials {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.card-Testmonials {
+  width: 28%;
+  display: inline-block;
+  text-align: center;
+  padding: 2%;
+  border-radius: 15px;
+}
+.Testmonial-1-color {
+  background-color: rgb(239, 246, 255);
+  border: 1px solid rgb(190, 219, 255);
+}
+.Testmonial-2-color {
+  background-color: rgb(236, 253, 245);
+  border: 1px solid rgb(164, 244, 207);
+}
+.Testmonial-3-color {
+  background-color: rgb(250, 245, 255);
+  border: 1px solid rgb(233, 212, 255);
+}
+
+.avatar-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  float: left;
+  margin-right: 20px;
+}
+.text-avatar {
+  padding-top: 10px;
+}
+
+.text-align-left {
+  text-align: left;
+}
+.float-right {
+  float: right;
+}
+
+.Testmonials-margin-padding {
+  padding-top: 5%;
+}
+
+.wide-card {
+  margin-top: 60px;
+  background-color: rgb(241, 245, 249);
+  width: 100%;
+  border-radius: 15px;
+  height: 120px;
+}
+.statistics {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-inline: 6%;
+}
+
+/* =================================================================== */
+
+/* ================================ section 4 ===============================*/
+form {
+  width: 60%;
+  margin: auto;
+  background-color: rgb(249, 250, 251);
+  padding: 4%;
+  border-radius: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+textarea {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.frist-last-name {
+  width: 47%;
+  display: inline-block;
+}
+.margin-top
+{
+    margin-top: 25px;
+}
+
+.button-form {
+  margin-block: 40px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+/* =================================================================== */
+
+/* ================================ section 4 (end) ===============================*/
+
+.fouter {
+  margin-top: 5%;
+  background-color: rgb(16, 24, 40);
+  color: black;
+  width: 100%;
+  height: 300px;
+  padding-top: 30px;
+  color: white;
+}
+.FitCore-text {
+  float: left;
+  width: 45%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 12px;
+}
+div.float-right a {
+  display: inline;
+  padding-right: 15px;
+}
+div.FitCore-text div a {
+  display: inline;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+.end-width {
+  width: 25%;
+}
+.float-left {
+  float: left;
+}
+.All-rights-reserved {
+  margin-top: 30px;
+  border-top: 2px rgb(74, 85, 101) solid;
+  padding-top: 20px;
+}
+.over-flow {
+  overflow: auto;
+}
+/* =================================================================== */
