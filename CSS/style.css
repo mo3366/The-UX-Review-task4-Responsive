@@ -83,6 +83,17 @@ p {
   border: 2px solid black;
   margin-block: 0.5rem;
 }
+.button-nav2 {
+  background-color: #ffd15b;
+  font-size: 1.003rem;
+  border-radius: 1.25rem;
+  padding: 0.2rem 1.25rem;
+  border: 2px solid black;
+  margin-block: 0.5rem;
+}
+
+
+
 .clear {
   clear: both;
 }
@@ -180,6 +191,7 @@ a:hover {
   color: #000000;
   cursor: pointer;
   align-self: flex-end;
+  margin: 12px;
 }
 
 #menu-toggle:checked ~ .side-menu {

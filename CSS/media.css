@@ -1,5 +1,8 @@
 /* sm */
 @media screen and (max-width: 640px) {
+    html, body {
+  overflow-x: hidden;
+}
   .continer {
     width: 90%;
   }
@@ -17,7 +20,9 @@
   .hamburger {
     display: block;
   }
-
+h1{
+    font-size:60px;
+}
   ul {
     display: none;
   }
@@ -33,6 +38,7 @@
   .right-hero {
     width: 100%;
   }
+
   .left-shape-hero,
   .right-shape-hero {
     display: none;
@@ -83,6 +89,9 @@
     row-gap: 2rem;
   }
   .right-fouter {
+    width: 100%;
+  }
+  .foter-text {
     width: 100%;
   }
 
